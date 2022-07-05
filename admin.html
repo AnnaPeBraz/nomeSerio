@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+
+    <link rel="stylesheet" type="text/css" href="css/admin.css" />
+</head>
+<body>
+    <h3>Lista de Mangas</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Imagem</th>
+                <th>Link</th>
+                <th>Numeros</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaProdutosBody">
+
+        </tbody>
+    </table>
+    <p>Adicionar:</p>
+    <form id="formulario">
+        <input type="text" name="titulo" id="titulo" placeholder="Titulo">
+        <input type="text" name="link" id="linkDaEditora" placeholder="Link da Editora">
+        <input type="text" name="qtdDeVol" id="qtdDeVol" placeholder="Qtd de volumes">
+        <div>
+            <input type="checkbox" name="" id="Finalizado">Finalizado
+            <input type="checkbox" name="" id="emAndamento">Em andamento
+            <!-- <input type="checkbox" name="" id="Finalizado">Finalizado
+            <input type="checkbox" name="" id="Finalizado">Finalizado -->
+        </div>
+        <input type="submit" value="Ok">
+    </form>
+    
+</body>
+</html>
